@@ -14,7 +14,7 @@ else if (Credit_Score >= 650 && Credit_Score <= 750){
         console.log("Loan is Denied due to less income")
     }
     // checking the employee status
-    else if(Employee_Status === false){
+    else if(!Employee_Status){
         console.log("loan is denied due to unemployement")
     }
     // checking the DTI ratio
